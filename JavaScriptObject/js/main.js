@@ -1,9 +1,8 @@
 'use strict';
 
 {
-  const scores = [80, 90, 40, 70];
+  // console.log(Math.random());//ランダム値（0 ~ 1）
 
-  scores.forEach((score, index) => {
-    console.log(`Score ${index  }: ${score}`);
-  });
+  console.log(Math.floor(Math.random() * 6) + 1);
+
 }
